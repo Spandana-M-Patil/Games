@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock-Paper-Scissor</h1>
+      <div class="images">
+        <button id="rock" onclick="rock_click()">
+          <img src="assets/rock.png" alt="" />
+        </button>
+        <button id="paper" onclick="paper_click()">
+          <img src="assets/paper.jpeg" alt="" />
+        </button>
+        <button id="scissor" onclick="scissor_click()">
+          <img src="assets/scissors.png" alt="" />
+        </button>
+      </div>
+      <div class="rules">
+        <h2 class="header">
+          Welcome to the game feild! To start the game click start button.
+        </h2>
+        <h2>Rules:</h2>
+        <h3>Here, you are playing against the computer.</h3>
+        <h3>
+          1. Rock beats Scissors.
+          <blockquote>Rock crushes Scissors.</blockquote>
+        </h3>
+        <h3>
+          2. Scissors beats Paper.
+          <blockquote>Scissors cuts Paper.</blockquote>
+        </h3>
+        <h3>
+          3. Paper beats Rock.
+          <blockquote>Paper covers Rock.</blockquote>
+        </h3>
+        <h3>
+          4. Tie.
+          <blockquote>
+            If both players choose the same option (e.g, both choose Rock), the
+            game is tie, and no one wins.
+          </blockquote>
+        </h3>
+      </div>
+      <a href="index.html"><button class="start">START</button></a>
+    </div>
+  </body>
+</html>
